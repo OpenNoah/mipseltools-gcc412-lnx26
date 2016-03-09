@@ -1,0 +1,14 @@
+prefix=/opt/mipseltools-gcc412-lnx26/mipsel-linux
+exec_prefix=/opt/mipseltools-gcc412-lnx26/mipsel-linux
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: alsa
+Description: Advanced Linux Sound Architecture (ALSA) - Library
+Version: 1.0.15
+Requires: 
+Libs: -L${libdir} -lasound
+Libs.private:  -ldl -lpthread
+# -I${includedir}/alsa below is just for backward compatibility
+# (it was set so mistakely in the older version)
+Cflags: -I${includedir} -I${includedir}/alsa

@@ -1,0 +1,74 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P ZX
+R nnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.panels.user_data%b  terminal_interface-curses-panels-user_data.adb  3d17b62a NE PK GE
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+
+U terminal_interface.curses.panels.user_data%s  terminal_interface-curses-panels-user_data.ads  b2069710 BN NE PR PK GE
+W terminal_interface.curses.panels%s  terminal_interface-curses-panels.adb  terminal_interface-curses-panels.ali
+
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-parame.ads		20060127234221 6bd7b874
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-panels.ads  20081007231233 4f101c17
+D terminal_interface-curses-panels-user_data.ads  20081007231233 fd168b07
+D terminal_interface-curses-panels-user_data.adb  20031025153918 f786a954
+D unchconv.ads		20060127234222 34860a55
+X 1 interfac.ads
+38K9*Interfaces 173e15 15|41r6 49r13
+X 2 i-c.ads
+18K20*C 230e17 15|41w17 49r24
+35I9*int<integer> 15|49r26
+X 10 terminal_interface.ads
+42K9*Terminal_Interface 47e23 14|45r9 46r25 69r5 15|42r6 43r6 44r6 45r6 47r14
+. 78r5
+X 11 terminal_interface-curses.ads
+49K28*Curses 10|42k9 11|1933e30 14|45r28 46r44 69r24 15|42r25 43r25 44r25
+. 45r25 47r33 78r24
+X 12 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 15|42w32 43r32
+55I12*C_Int{2|35I9} 15|55r62
+72i4*Curses_Err{55I12} 15|58r42
+X 13 terminal_interface-curses-panels.ads
+44K35*Panels 11|49k28 13|147e37 14|45r35 46r51 69r31 15|44w32 45r32 47r40
+. 78r31
+49M9*Panel 14|53r39 59r40 64r39 15|51r39 54r42 63r39 65r37 71r40
+60X4*Panel_Exception 15|59r16
+X 14 terminal_interface-curses-panels-user_data.ads
+43+9 User 44r35
+44P9 User_Access(43+9) 54r39 60r40 64r53 15|52r39 55r42 63r53 65r51 72r40
+45k42*User_Data 13|44k35 14|43z9 44z9 46r58 69l38 69e47 15|47b47 78l38 78t47
+53U14*Set_User_Data 53>29 54>29 56r19 15|51b14 61l8 61t21
+53m29 Pan{13|49M9} 15|51b29 58r29
+54*29 Data{44P9} 15|52b29 58r34
+59U14*Get_User_Data 59>29 60<29 15|71b14 76l8 76t21
+59m29 Pan{13|49M9} 15|71b29 75r30
+60*29 Data{44P9} 15|72b29 75m7
+64V13*Get_User_Data{44P9} 64>28 15|63b13 69l8 69t21 75r15
+64m28 Pan{13|49M9} 15|63b28 68r29
+X 15 terminal_interface-curses-panels-user_data.adb
+54V16*Set_Panel_Userptr{12|55I12} 54>35 55>35 56b<c,set_panel_userptr>25
+. 58r10
+54m35 Pan{13|49M9}
+55*35 Addr{14|44P9}
+65V16*Panel_Userptr{14|44P9} 65>31 66b<c,panel_userptr>25 68r14
+65m31 Pan{13|49M9}
+

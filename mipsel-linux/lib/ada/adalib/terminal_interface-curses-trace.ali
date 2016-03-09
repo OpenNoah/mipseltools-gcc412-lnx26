@@ -1,0 +1,55 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.trace%b  terminal_interface-curses-trace.adb  e78ec151 NE PK
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+U terminal_interface.curses.trace%s  terminal_interface-curses-trace.ads  eb532dc0 EE PR PK
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-parame.ads		20060127234221 6bd7b874
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-trace.ads  20081007231232 de0ac71b
+D terminal_interface-curses-trace.adb  20081007231241 3984064a
+D unchconv.ads		20060127234222 34860a55
+X 9 terminal_interface.ads
+42K9*Terminal_Interface 47e23 11|42r9 43r25 112r5 12|42r14 56r5
+X 10 terminal_interface-curses.ads
+49K28*Curses 9|42k9 10|1933e30 11|42r28 43r44 112r24 12|42r33 56r24
+X 11 terminal_interface-curses-trace.ads
+42K35*Trace 10|49k28 11|43r51 112l31 112e36 12|42b40 56l31 56t36
+46R9*Trace_Attribute_Set 60e17 61r26 63r8 78r8 84r30 86r30 93r29 102r28 109r28
+. 12|44r28
+48b10*Times{boolean} 87r7
+49b10*Tputs{boolean} 88r7
+50b10*Update{boolean} 89r7
+51b10*Cursor_Move{boolean} 90r7
+52b10*Character_Output{boolean} 91r7
+53b10*Calls{boolean}
+54b10*Virtual_Puts{boolean}
+55b10*Input_Events{boolean}
+56b10*TTY_State{boolean}
+57b10*Internal_Calls{boolean}
+58b10*Character_Calls{boolean}
+59b10*Termcap_TermInfo{boolean}
+84r4*Trace_Disable{46R9}
+86r4*Trace_Ordinary{46R9}
+93r4*Trace_Maximum{46R9}
+102U14*Trace_On 102>24 12|44b14 48l8 48t16
+102r24 x{46R9} 12|44b24 45r25
+106U14*Trace_Put 106>25 12|50b14 54l8 54t17
+106s25 str{string} 12|50b25 51r25
+109r4*Current_Trace_Setting{46R9} 110m22
+

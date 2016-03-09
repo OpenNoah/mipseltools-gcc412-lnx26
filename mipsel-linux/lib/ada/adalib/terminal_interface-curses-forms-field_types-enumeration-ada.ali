@@ -1,0 +1,99 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P SS ZX
+R nnnvnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.forms.field_types.enumeration.ada%b  terminal_interface-curses-forms-field_types-enumeration-ada.adb  a68aad7b NE PK GE
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W terminal_interface.curses.forms.field_types.enumeration%s  terminal_interface-curses-forms-field_types-enumeration.adb  terminal_interface-curses-forms-field_types-enumeration.ali
+
+U terminal_interface.curses.forms.field_types.enumeration.ada%s  terminal_interface-curses-forms-field_types-enumeration-ada.ads  36477173 BN NE PR PK GE
+W terminal_interface.curses.forms.field_types.enumeration%s  terminal_interface-curses-forms-field_types-enumeration.adb  terminal_interface-curses-forms-field_types-enumeration.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-charac.ads		20060127234223 506ce725
+D a-chahan.ads		20060127234222 e1f8de82
+D a-chlat1.ads		20060127234222 3078abae
+D a-except.ads		20060127234220 64bf35a8
+D a-finali.ads		20060127234222 2f48e141
+D a-filico.ads		20060127234222 9299732a
+D a-stream.ads		20060127234220 246b88a6
+D a-tags.ads		20060127234221 a574b7d1
+D a-tags.adb		20060127234221 eb2a3d20
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-finimp.ads		20060127234223 33c39bf7
+D s-finroo.ads		20060127234221 78d634f7
+D s-htable.ads		20060127234222 9598cfa4
+D s-parame.ads		20060127234221 6bd7b874
+D s-secsta.ads		20060127234221 db466d0c
+D s-soflin.ads		20060127234220 bb3ef1e4
+D s-stache.ads		20060127234222 07e06d0a
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-stratt.ads		20060127234222 9823065b
+D s-traent.ads		20060127234220 9950c76b
+D s-unstyp.ads		20060127234221 b399198a
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-forms.ads  20081007231233 bbae986b
+D terminal_interface-curses-forms-field_types.ads  20081007231233 7e4e17b2
+D terminal_interface-curses-forms-field_types-enumeration.ads  20031025153918 c35d9a7a
+D terminal_interface-curses-forms-field_types-enumeration-ada.ads  20031025153918 f51aeb09
+D terminal_interface-curses-forms-field_types-enumeration-ada.adb  20040821213700 b26898f0
+D unchconv.ads		20060127234222 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 35|42r6 42r35
+X 2 a-charac.ads
+16K13*Characters 19e19 35|42r10 42r39
+X 3 a-chahan.ads
+38K24*Handling 157e28 35|42w21 42r50
+65V13*To_Upper{character} 35|65r18
+68V13*To_Lower{string} 35|62r32
+X 29 terminal_interface.ads
+42K9*Terminal_Interface 47e23 34|44r9 46r7 59r5 35|44r14 81r5
+X 30 terminal_interface-curses.ads
+49K28*Curses 29|42k9 30|1933e30 34|44r28 46r26 59r24 35|44r33 81r24
+X 31 terminal_interface-curses-forms.ads
+49K35*Forms 30|49k28 31|780e36 34|44r35 46r33 59r31 35|44r40 81r31
+56M9*Field 34|53r26 35|74r26
+129I9*Buffer_Number<integer> 34|54r26 54r43 35|75r26 75r43
+368V13*Get_Buffer{string} 35|78r23
+X 32 terminal_interface-curses-forms-field_types.ads
+43K41*Field_Types 31|49k35 32|239e48 34|44r41 46r39 59r37 35|44r46 81r37
+X 33 terminal_interface-curses-forms-field_types-enumeration.ads
+43K53*Enumeration 32|43k41 33|98e60 34|44r53 46r51 59r49 35|44r58 81r49
+47P9*String_Access(string)
+50E9*Type_Set 50e57 34|48r38 35|46r38
+50n34*Upper_Case{50E9} 35|61r20
+50n46*Mixed_Case{50E9} 34|48r50 35|46r50 63r22
+52A9*Enum_Array(47P9)
+55R9*Enumeration_Info 60e17 35|51r11
+57a10*Names{52A9} 35|58r12 62r15 62r44 64r18 64r30 65r30 65r42
+58b10*Case_Sensitive{boolean} 35|54r9
+59b10*Match_Must_Be_Unique{boolean} 35|55r9
+62R9*Enumeration_Field<32|52R9> 96e17 34|51r28 35|49r28
+64V13*Create{62R9} 35|71r14
+X 34 terminal_interface-curses-forms-field_types-enumeration-ada.ads
+42E9 T 54r71 35|51r29 51r36 51r46 51r53 57r16 58r37 75r71 78r14
+44k65*Ada 33|43k53 34|42z9 46r63 59l61 59e64 35|44b70 81l61 81t64
+48V13*Create{33|62R9} 48>21 49>21 50>21 35|46b13 72l8 72t14
+48e21 Set{33|50E9} 35|46b21 61r13 63r16
+49b21 Case_Sensitive{boolean} 35|47b21 54r27
+50b21 Must_Be_Unique{boolean} 35|48b21 55r33
+53V13*Value{42E9} 53>20 54>20 35|74b13 79l8 79t13
+53m20 Fld{31|56M9} 35|74b20 78r35
+54i20 Buf{31|129I9} 35|75b20 78r40
+X 35 terminal_interface-curses-forms-field_types-enumeration-ada.adb
+51r7 I{33|55R9} 54m7 55m7 58m10 62r13 62r42 64m16 64r28 65r28 65r40 71r22
+52i7 J{positive} 58r19 62r22 62r51 64r25 64r37 65r37 65r49 68m10 68r15
+57*11 E{34|42E9} 58r46
+

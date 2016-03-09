@@ -1,0 +1,112 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P SS ZX
+R nnnnnnnnnnnnnnnnvnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.putwin%b  terminal_interface-curses-putwin.adb  e1770693 NE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+W ada.streams.stream_io.c_streams%s  a-ssicst.adb  a-ssicst.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+
+U terminal_interface.curses.putwin%s  terminal_interface-curses-putwin.ads  08c07bef EE NE PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-except.ads		20060127234220 64bf35a8
+D a-finali.ads		20060127234222 2f48e141
+D a-filico.ads		20060127234222 9299732a
+D a-ioexce.ads		20060127234223 be0900a0
+D a-stream.ads		20060127234220 246b88a6
+D a-ststio.ads		20060127234221 439b7681
+D a-ssicst.ads		20060127234220 267d38d4
+D a-tags.ads		20060127234221 a574b7d1
+D a-tags.adb		20060127234221 eb2a3d20
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D i-cstrea.ads		20060127234221 85085d90
+D system.ads		20060127234221 07429f6d
+D s-crtl.ads		20060127234221 44c0e2c2
+D s-exctab.ads		20060127234222 e14b1567
+D s-ficobl.ads		20060127234222 ed792749
+D s-finimp.ads		20060127234223 33c39bf7
+D s-finroo.ads		20060127234221 78d634f7
+D s-htable.ads		20060127234222 9598cfa4
+D s-parame.ads		20060127234221 6bd7b874
+D s-secsta.ads		20060127234221 db466d0c
+D s-soflin.ads		20060127234220 bb3ef1e4
+D s-stache.ads		20060127234222 07e06d0a
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-stratt.ads		20060127234222 9823065b
+D s-traent.ads		20060127234220 9950c76b
+D s-unstyp.ads		20060127234221 b399198a
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-putwin.ads  20031025153918 7e02e7b5
+D terminal_interface-curses-putwin.adb  20031025153918 e4968fc3
+D unchconv.ads		20060127234222 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 35|41r6 46r33 48r33 36|41r6 48r24 52r33 63r32
+X 6 a-stream.ads
+38K13*Streams 70e16 35|41r10 46r37 48r37 36|41r10 48r28 52r37 63r36
+X 7 a-ststio.ads
+41K21*Stream_IO 193e26 35|41w18 46r45 48r45 36|41r18 48r36 52r45 63r44
+45P9*File_Type(156R9) 35|46r55 48r55 36|52r55 63r54
+X 8 a-ssicst.ads
+40K31*C_Streams 55e36 36|41w28 48r46
+44V13*C_Stream{14|43M12} 36|56r46 68r42
+X 11 interfac.ads
+38K9*Interfaces 173e15 36|42r6 47r24
+X 12 i-c.ads
+35I9*int<integer>
+X 14 i-cstrea.ads
+39K20*C_Streams 272e25 36|42w17 47r35
+43M12*FILEs{16|48M12} 36|53r46 65r32
+X 15 system.ads
+66M9*Address
+X 16 s-crtl.ads
+48M12*FILEs{15|66M9}
+X 32 terminal_interface.ads
+42K9*Terminal_Interface 47e23 35|43r9 50r5 36|43r6 43r41 45r14 77r5
+X 33 terminal_interface-curses.ads
+49K28*Curses 32|42k9 33|1933e30 35|43r28 50r24 36|43r25 43r60 45r33 77r24
+57M9*Window 35|45r33 48r73 36|51r33 53r30 64r32 65r46 68r20
+58m4*Null_Window{57M9} 36|70r14
+383X4*Curses_Exception 36|59r16 71r16
+X 34 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 36|43w32 43r67
+55I12*C_Int{12|35I9} 36|49r13 53r60 56r20
+71i4*Curses_Ok{55I12} 36|58r15
+X 35 terminal_interface-curses-putwin.ads
+43K35*PutWin 33|49k28 35|50l31 50e37 36|45b40 77l31 77t37
+45U14*Put_Window 45>26 46>26 36|51b14 61l8 61t18
+45m26 Win{33|57M9} 36|51b26 56r37
+46p26 File{7|45P9} 36|52b26 56r56
+48V13*Get_Window{33|57M9} 48>25 36|63b13 75l8 75t18
+48p25 File{7|45P9} 36|63b25 68r52
+X 36 terminal_interface-curses-putwin.adb
+47K12 ICS=47:35 53r42 65r28
+48K12 ACS=48:46 56r42 68r38
+53V16*putwin{34|55I12} 53>24 53>38 54b<c,putwin>25 56r29
+53m24 Win{33|57M9}
+53m38 f{14|43M12}
+56i7 R{34|55I12} 58r10
+65V16*getwin{33|57M9} 65>24 66b<c,getwin>25 68r30
+65m24 f{14|43M12}
+68m7 W{33|57M9} 70r10 73r17
+

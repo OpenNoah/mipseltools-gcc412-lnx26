@@ -1,0 +1,135 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P SS ZX
+R nnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnvnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.terminfo%b  terminal_interface-curses-terminfo.adb  f1f0b17b NE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_conversion%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+
+U terminal_interface.curses.terminfo%s  terminal_interface-curses-terminfo.ads  d2e005f2 NE PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-except.ads		20060127234220 64bf35a8
+D a-unccon.ads		20060127234221 51e09df2
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-parame.ads		20060127234221 6bd7b874
+D s-secsta.ads		20060127234221 db466d0c
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-traent.ads		20060127234220 9950c76b
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-terminfo.ads  20031025153918 47b86ce6
+D terminal_interface-curses-terminfo.adb  20060625143022 5771e2db
+D unchconv.ads		20060127234222 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 19|46r6 55r32
+X 3 a-unccon.ads
+17+9 Source 19|56r10
+18+9 Target 19|56r31
+20v14*Unchecked_Conversion 19|46w10 55r36
+X 4 interfac.ads
+38K9*Interfaces 173e15 18|42r6 71r42 72r44 19|44r6 44r24 45r6 45r32
+X 5 i-c.ads
+18K20*C 230e17 18|42w17 71r53 72r55 19|44w17 44r35 45r17 45r43
+35I9*int<integer> 18|71r55 72r57
+60M9*size_t 19|72r16 90r16 111r16 130r16 147r16
+72E9*char<character>
+79A9*char_array(72E9) 19|69r32 71r16 87r31 89r16 108r31 110r16 127r30 129r16
+. 140r32 143r28 146r16
+92U14*To_C 19|74r7 93r7 114r7 132r7 150r7
+X 6 i-cstrin.ads
+38K22*Strings 107e25 19|45w19 45r45
+52P9*chars_ptr(character) 19|50r41 52r41 56r20 87r50 91r14 108r50 112r14
+56p4*Null_Ptr{52P9} 19|95r17 116r17
+X 7 system.ads
+39K9*System 153e11 19|53r33
+X 12 s-stoele.ads
+42K16*Storage_Elements 110e28 19|53r40
+98M9*Integer_Address 19|53r57
+X 15 terminal_interface.ads
+42K9*Terminal_Interface 47e23 18|44r9 45r25 81r5 19|43r6 43r41 48r14 161r5
+X 16 terminal_interface-curses.ads
+49K28*Curses 15|42k9 16|1933e30 18|44r28 45r44 81r24 19|43r25 43r60 48r33
+. 161r24
+383X4*Curses_Exception 19|98r16 119r16 157r16
+1930M9 Curses_Bool 19|69r51 75r28
+X 17 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 19|43w32 43r67
+55I12*C_Int{5|35I9} 19|127r49 141r32 142r49 143r47 148r13 154r29
+72i4*Curses_Err{55I12} 19|156r16
+74i4*Curses_True{55I12} 19|75r41
+121V13*Fill_String{string} 19|100r37
+X 18 terminal_interface-curses-terminfo.ads
+44K35*Terminfo 16|49k28 18|45r51 81l31 81e39 19|48b40 161l31 161t39
+54A9*Terminfo_String<string> 58r39 76r35 19|84r39 100r20 137r35
+57U14*Get_String 57>26 58<26 59<26 19|83b14 103l8 103t18
+57s26 Name{string} 19|83b26 89r33 93r13
+58a26 Value{54A9} 19|84b26 100m10
+59b26 Result{boolean} 19|85b26 96m10 101m10
+60V13*Has_String{boolean} 60>25 19|106b13 123l8 123t18
+60s25 Name{string} 19|106b25 110r33 114r13
+64V13*Get_Flag{boolean} 64>23 19|67b13 80l8 80t16
+64s23 Name{string} 19|67b23 71r33 74r13
+68V13*Get_Number{integer} 68>25 19|126b13 134l8 134t18
+68s25 Name{string} 19|126b25 129r33 132r13
+71P9*putctype(5|35I9) 73r26 78r35 19|139r35 142r32
+71i38 c{5|35I9}
+76U14*Put_String 76>26 77>26 78>26 19|137b14 159l8 159t18
+76a26 Str{54A9} 19|137b26 146r33 150r21
+77i26 affcnt{natural} 19|138b26 154r36
+78p26 putc{71P9} 19|139b26 151r10 154r45
+X 19 terminal_interface-curses-terminfo.adb
+50V13 Is_MinusOne_Pointer{boolean} 50>34 52b13 63l8 63t27 64r19 97r13 118r13
+50p34 P{6|52P9} 52b34 58r20
+53M12 Weird_Address<12|98M9> 54r34 56r41
+54m7 Invalid_Pointer{53M12} 58r25
+55V16 To_Weird[3|20]{53M12} 58r10
+69V16*tigetflag{16|1930M9} 69>27 70b<c,tigetflag>25 75r10
+69a27 id{5|79A9}
+71a7 Txt{5|79A9} 74m19 75r21
+72m7 Length{5|60M9} 74m24
+87V16*tigetstr{6|52P9} 87>26 88b<c,tigetstr>25 94r15
+87a26 id{5|79A9}
+89a7 Txt{5|79A9} 93m19 94r25
+90m7 Length{5|60M9} 93m24
+91p7 Txt2{6|52P9} 94m7 95r10 97r34 100r50
+108V16*tigetstr{6|52P9} 108>26 109b<c,tigetstr>25 115r15
+108a26 id{5|79A9}
+110a7 Txt{5|79A9} 114m19 115r25
+111m7 Length{5|60M9} 114m24
+112p7 Txt2{6|52P9} 115m7 116r10 118r34
+127V16*tigetstr{17|55I12} 127>26 128b<c,tigetstr>25 133r23
+127a26 s{5|79A9}
+129a7 Txt{5|79A9} 132m19 133r33
+130m7 Length{5|60M9} 132m24
+140V16*tputs{17|55I12} 140>23 141>23 142>23 144b<c,tputs>25 154r17
+140a23 str{5|79A9}
+141i23 affcnt{17|55I12}
+142p23 putc{18|71P9}
+143V16*putp{17|55I12} 143>22 145b<c,putp>25 152r17
+143a22 str{5|79A9}
+146a7 Txt{5|79A9} 150m27 152r23 154r24
+147m7 Length{5|60M9} 150m32
+148i7 Err{17|55I12} 152m10 154m10 156r10
+

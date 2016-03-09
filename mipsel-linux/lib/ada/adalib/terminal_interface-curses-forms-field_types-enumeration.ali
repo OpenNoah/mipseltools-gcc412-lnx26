@@ -1,0 +1,157 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P SS ZX
+R nnnvnnnvnnnnnnvnvnnnnvnnvnvnnnnnnnnnnvnnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.forms.field_types.enumeration%b  terminal_interface-curses-forms-field_types-enumeration.adb  6ca5113c NE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+W terminal_interface.curses.forms.field_types%s  terminal_interface-curses-forms-field_types.adb  terminal_interface-curses-forms-field_types.ali
+
+U terminal_interface.curses.forms.field_types.enumeration%s  terminal_interface-curses-forms-field_types-enumeration.ads  755da712 BN EE PR PK
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W terminal_interface.curses.forms.field_types%s  terminal_interface-curses-forms-field_types.adb  terminal_interface-curses-forms-field_types.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-charac.ads		20060127234223 506ce725
+D a-chlat1.ads		20060127234222 3078abae
+D a-except.ads		20060127234220 64bf35a8
+D a-finali.ads		20060127234222 2f48e141
+D a-filico.ads		20060127234222 9299732a
+D a-ioexce.ads		20060127234223 be0900a0
+D a-stream.ads		20060127234220 246b88a6
+D a-tags.ads		20060127234221 a574b7d1
+D a-tags.adb		20060127234221 eb2a3d20
+D a-uncdea.ads		20060127234221 dc667e6d
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-finimp.ads		20060127234223 33c39bf7
+D s-finroo.ads		20060127234221 78d634f7
+D s-htable.ads		20060127234222 9598cfa4
+D s-parame.ads		20060127234221 6bd7b874
+D s-secsta.ads		20060127234221 db466d0c
+D s-soflin.ads		20060127234220 bb3ef1e4
+D s-stache.ads		20060127234222 07e06d0a
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-stratt.ads		20060127234222 9823065b
+D s-stratt.adb		20060127234222 27b57199
+D s-traent.ads		20060127234220 9950c76b
+D s-unstyp.ads		20060127234221 b399198a
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-forms.ads  20081007231233 bbae986b
+D terminal_interface-curses-forms-field_types.ads  20081007231233 7e4e17b2
+D terminal_interface-curses-forms-field_types-enumeration.ads  20031025153918 c35d9a7a
+D terminal_interface-curses-forms-field_types-enumeration.adb  20031025153918 c347579f
+D unchconv.ads		20060127234222 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 37|41r6 53r13
+X 11 a-uncdea.ads
+20u15*Unchecked_Deallocation 37|41w10 53r17
+X 12 interfac.ads
+38K9*Interfaces 173e15 36|41r6 89r30 37|42r6 42r24 43r6 43r32
+X 13 i-c.ads
+18K20*C 230e17 36|41r17 89r41 37|42w17 42r35 43r17 43r43
+35I9*int<integer>
+60M9*size_t 37|56r20 56r34 61r37 66r17 78r11
+X 14 i-cstrin.ads
+38K22*Strings 107e25 36|41w19 89r43 37|43w19 43r45
+52P9*chars_ptr(character) 37|79r11
+54A9*chars_ptr_array(52P9) 36|89r51 37|61r20 99r37
+56p4*Null_Ptr{52P9} 37|72r20 83r24 85r26
+64V13*New_String{52P9} 37|66r32
+66U14*Free 37|84r10
+X 31 terminal_interface.ads
+42K9*Terminal_Interface 47e23 36|43r9 45r7 98r5 37|44r6 44r41 46r14 119r5
+X 32 terminal_interface-curses.ads
+49K28*Curses 31|42k9 32|1933e30 36|43r28 45r26 98r24 37|44r25 44r60 46r33
+. 119r24
+X 33 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 37|44w32 44r67
+55I12*C_Int{13|35I9}
+78I12*Eti_Error{55I12} 37|104r13
+80i4*E_Ok{78I12} 37|113r17
+96U14*Eti_Exception 37|114r10
+X 34 terminal_interface-curses-forms.ads
+49K35*Forms 32|49k28 34|780e36 36|43r35 45r33 98r31 37|46r40 119r31
+56M9*Field 36|84r39 37|91r39 97r37
+286X4*Form_Exception 37|64r19 107r16
+X 35 terminal_interface-curses-forms-field_types.ads
+43K41*Field_Types 34|49k35 35|239e48 36|43r41 45r39 98r37 37|46r46 119r37
+46I12*C_Int{13|35I9} 37|100r37 101r37 101r51 110r36 111r36
+52H9*Field_Type 52e50 36|62r34 91r34
+132P9 C_Field_Type(119R9) 37|94r21 98r37
+149V13 C_Choice_Router{132P9} 37|116r31
+151U14 Wrap_Builtin 37|116r7
+X 36 terminal_interface-curses-forms-field_types-enumeration.ads
+43K53*Enumeration 35|43k41 36|45r51 98l49 98e60 37|46b58 119l49 119t60
+47P9*String_Access(string) 53r9 37|54r41 57r11
+50E9*Type_Set 50e57
+50n22*Lower_Case{50E9}
+50n34*Upper_Case{50E9}
+50n46*Mixed_Case{50E9}
+52A9*Enum_Array(47P9) 57r33
+55R9*Enumeration_Info 55d27 60e17 64r28 73r43 37|48r42
+55i27*C{positive} 57r50 37|56r47
+57a10*Names{52A9} 37|63r18 66r49 68r23
+58b10*Case_Sensitive{boolean} 37|59r38
+59b10*Match_Must_Be_Unique{boolean} 37|60r38
+62R9*Enumeration_Field<35|52R9> 64p13 66r28 75r43 77p14 77r37 84P14 85r39
+. 91c9 96e17 37|50r28 55r11 76r37 92r39
+64V13*Create{62R9} 64>21 65>21 75r69 37|48b13 74l8 74t14
+64r21 Info{55R9} 37|48b21 56r42 59r33 60r33 63r13 66r44 68r18
+65b21 Auto_Release_Names{boolean} 37|49b21 67r13
+73V13*Make_Enumeration_Type=75:69{62R9}
+73r36 Info{55R9}
+74b36 Auto_Release_Names{boolean}
+77U14*Release 77=23 37|76b14 89l8 89t15
+77r23 Enum{62R9} 37|76b23 82r15 82r20 85r10 85r15 88m7
+84U14*Set_Field_Type<35|66p14> 84>30 85>30 37|91b14 117l8 117t22
+84m30 Fld{34|56M9} 37|91b30 97r46 116r21
+85r30 Typ{62R9} 37|92b30 106r10 109r36 110r56 112r44 116r26
+89P9 CPA_Access(14|54A9) 95r33
+93b10 Case_Sensitive{boolean} 37|59r9 110r60
+94b10 Match_Must_Be_Unique{boolean} 37|60r9 112r48
+95p10 Arr{89P9} 37|61r9 66r12 72r9 82r20 85r15 88r12 106r14 109r40
+X 37 terminal_interface-curses-forms-field_types-enumeration.adb
+52U17 Release_String[11|20] 69r13
+55r7 E{36|62R9} 59m7 60m7 61m7 66r10 66r12 72r7 72r9 73r14
+56m7 L{13|60M9} 61r51 62r31 72r14
+57p7 S{36|47P9} 68m13 69m29
+62i11 I{integer} 63r25 66r25 66r56 68r30
+78m7 I{13|60M9} 82r25 85r20 86m10 86r15
+79p7 P{14|52P9} 82m10 83r20 84m16
+94p7*C_Enum_Type{35|132P9} 95m25 98r53
+97V16*Set_Fld_Type{35|46I12} 97>30 98>30 99>30 100>30 101>30 102b<c,set_field_type>25
+. 109r14
+97m30 F{34|56M9}
+98p30 Cft{35|132P9}
+99a30 Arg1{14|54A9} 109r28
+100i30 Arg2{35|46I12} 110r28
+101i30 Arg3{35|46I12} 111r28
+104i7 Res{33|78I12} 109m7 113r10 114r25
+

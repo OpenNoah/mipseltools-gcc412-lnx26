@@ -1,0 +1,139 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P ZX
+R nnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.panels%b  terminal_interface-curses-panels.adb  4fd5d42f NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+
+U terminal_interface.curses.panels%s  terminal_interface-curses-panels.ads  7d0b69a1 BN EE PR PK
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+L "-lpanel"
+L "-lncurses"
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-except.ads		20060127234220 64bf35a8
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-exctab.adb		20060127234222 519458bb
+D s-htable.ads		20060127234222 9598cfa4
+D s-parame.ads		20060127234221 6bd7b874
+D s-soflin.ads		20060127234220 bb3ef1e4
+D s-stache.ads		20060127234222 07e06d0a
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-traent.ads		20060127234220 9950c76b
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-panels.ads  20081007231233 4f101c17
+D terminal_interface-curses-panels.adb  20040821213700 78524056
+D unchconv.ads		20060127234222 34860a55
+X 3 interfac.ads
+38K9*Interfaces 173e15 21|43r6 47r13
+X 4 i-c.ads
+18K20*C 230e17 21|43w17 47r24
+35I9*int<integer> 21|47r26
+X 6 system.ads
+39K9*System 153e11 20|42w6 144r25
+X 14 s-stoele.ads
+42K16*Storage_Elements 110e28 20|144r32
+98M9*Integer_Address 20|144r49
+X 17 terminal_interface.ads
+42K9*Terminal_Interface 47e23 20|44r9 45r25 147r5 21|42r6 42r41 45r14 165r5
+X 18 terminal_interface-curses.ads
+49K28*Curses 17|42k9 18|1933e30 20|44r28 45r44 147r24 21|42r25 42r60 45r33
+. 165r24
+57M9*Window 20|67r27 72r30 102r45 107r47 112r32 21|49r27 51r32 103r45 105r47
+. 108r22 117r32 120r35
+58m4*Null_Window{57M9} 21|110r16
+60I9*Line_Position<integer> 20|118r32 21|129r32
+61I9*Column_Position<integer> 20|119r32 21|130r32
+X 19 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 21|42w32 42r67
+55I12*C_Int{4|35I9} 21|65r49 75r46 85r47 95r47 120r50 133r31 134r31 134r45
+. 137r21 137r35 144r50 156r47
+72i4*Curses_Err{55I12} 21|68r30 78r27 88r28 98r28 123r35 137r53 159r28
+75i4*Curses_False{55I12} 21|147r31
+X 20 terminal_interface-curses-panels.ads
+44K35*Panels 18|49k28 20|45r51 147l31 147e37 21|45b40 165l31 165t37
+49M9*Panel 54r26 67r42 72r45 77r31 82r28 87r29 97r29 102r31 107r33 111r32
+. 117r32 124r30 129r26 129r40 134r26 134r40 139r35 144c12 145r29 21|49r42
+. 51r47 54r13 63r31 65r35 73r28 75r32 83r29 85r33 93r29 95r33 103r31 105r33
+. 116r32 119r35 128r32 132r31 142r30 144r36 154r35 156r33
+54m4*Null_Panel{49M9} 145c7 21|57r16 162r14
+60X4*Panel_Exception 21|58r16 69r16 79r16 89r16 99r16 111r16 124r16 138r16
+. 160r16
+67V13*Create{49M9} 67>21 72r59 21|49b13 61l8 61t14
+67m21 Win{18|57M9} 21|49b21 56r24
+72V13*New_Panel=72:59{49M9}
+72m24 Win{18|57M9}
+77U14*Bottom 77>22 79r19 21|63b14 71l8 71t14
+77m22 Pan{49M9} 21|63b22 68r23
+82U14*Top 82>19 84r19 21|73b14 81l8 81t11
+82m19 Pan{49M9} 21|73b19 78r20
+87U14*Show 87>20 89r19 21|83b14 91l8 91t12
+87m20 Pan{49M9} 21|83b20 88r21
+92U14*Update_Panels 94b<c,update_panels>22
+97U14*Hide 97>20 99r19 21|93b14 101l8 101t12
+97m20 Pan{49M9} 21|93b20 98r21
+102V13*Get_Window{18|57M9} 102>25 104r19 107r62 21|103b13 114l8 114t18
+102m25 Pan{49M9} 21|103b25 108r43
+107V13*Panel_Window=107:62{18|57M9}
+107m27 Pan{49M9}
+111U14*Replace 111>23 112>23 114r19 21|116b14 126l8 126t15
+111m23 Pan{49M9} 21|116b23 123r23
+112m23 Win{18|57M9} 21|117b23 123r28
+117U14*Move 117>20 118>20 119>20 121r19 21|128b14 140l8 140t12
+117m20 Pan{49M9} 21|128b20 137r16
+118i20 Line{18|60I9} 21|129b20 137r28
+119i20 Column{18|61I9} 21|130b20 137r42
+124V13*Is_Hidden{boolean} 124>24 126r19 21|142b13 152l8 152t17
+124m24 Pan{49M9} 21|142b24 147r24
+129V13*Above{49M9} 129>20 131b<c,panel_above>22
+129m20 Pan{49M9}
+134V13*Below{49M9} 134>20 136b<c,panel_below>22
+134m20 Pan{49M9}
+139U14*Delete 139=22 21|154b14 163l8 163t14
+139m22 Pan{49M9} 21|154b22 159r21 162m7
+X 21 terminal_interface-curses-panels.adb
+51V16*Newpanel{20|49M9} 51>26 52b<c,new_panel>25 56r14
+51m26 Win{18|57M9}
+54m7 Pan{20|49M9} 56m7 57r10 60r14
+65V16*Bottompanel{19|55I12} 65>29 66b<c,bottom_panel>25 68r10
+65m29 Pan{20|49M9}
+75V16*Toppanel{19|55I12} 75>26 76b<c,top_panel>25 78r10
+75m26 Pan{20|49M9}
+85V16*Showpanel{19|55I12} 85>27 86b<c,show_panel>25 88r10
+85m27 Pan{20|49M9}
+95V16*Hidepanel{19|55I12} 95>27 96b<c,hide_panel>25 98r10
+95m27 Pan{20|49M9}
+105V16*Panel_Win{18|57M9} 105>27 106b<c,panel_window>25 108r32
+105m27 Pan{20|49M9}
+108m7 Win{18|57M9} 110r10 113r14
+119V16*Replace_Pan{19|55I12} 119>29 120>29 121b<c,replace_panel>25 123r10
+119m29 Pan{20|49M9}
+120m29 Win{18|57M9}
+132V16*Move{19|55I12} 132>22 133>22 134>22 135b<c,move_panel>25 137r10
+132m22 Pan{20|49M9}
+133i22 Line{19|55I12}
+134i22 Column{19|55I12}
+144V16*Panel_Hidden{19|55I12} 144>30 145b<c,panel_hidden>25 147r10
+144m30 Pan{20|49M9}
+156V16*Del_Panel{19|55I12} 156>27 157b<c,del_panel>25 159r10
+156m27 Pan{20|49M9}
+

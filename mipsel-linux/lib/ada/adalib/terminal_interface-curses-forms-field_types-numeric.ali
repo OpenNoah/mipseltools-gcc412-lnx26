@@ -1,0 +1,109 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P SS ZX
+R nnnnnnnnnnnnnnvnvnnvnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.forms.field_types.numeric%b  terminal_interface-curses-forms-field_types-numeric.adb  3c784944 NE PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+W terminal_interface.curses.forms.field_types%s  terminal_interface-curses-forms-field_types.adb  terminal_interface-curses-forms-field_types.ali
+
+U terminal_interface.curses.forms.field_types.numeric%s  terminal_interface-curses-forms-field_types-numeric.ads  c78f36dc BN EE PR PK
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W terminal_interface.curses.forms.field_types%s  terminal_interface-curses-forms-field_types.adb  terminal_interface-curses-forms-field_types.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-charac.ads		20060127234223 506ce725
+D a-chlat1.ads		20060127234222 3078abae
+D a-except.ads		20060127234220 64bf35a8
+D a-finali.ads		20060127234222 2f48e141
+D a-filico.ads		20060127234222 9299732a
+D a-ioexce.ads		20060127234223 be0900a0
+D a-stream.ads		20060127234220 246b88a6
+D a-tags.ads		20060127234221 a574b7d1
+D a-tags.adb		20060127234221 eb2a3d20
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-finimp.ads		20060127234223 33c39bf7
+D s-finroo.ads		20060127234221 78d634f7
+D s-htable.ads		20060127234222 9598cfa4
+D s-parame.ads		20060127234221 6bd7b874
+D s-secsta.ads		20060127234221 db466d0c
+D s-soflin.ads		20060127234220 bb3ef1e4
+D s-stache.ads		20060127234222 07e06d0a
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-stratt.ads		20060127234222 9823065b
+D s-stratt.adb		20060127234222 27b57199
+D s-traent.ads		20060127234220 9950c76b
+D s-unstyp.ads		20060127234221 b399198a
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-forms.ads  20081007231233 bbae986b
+D terminal_interface-curses-forms-field_types.ads  20081007231233 7e4e17b2
+D terminal_interface-curses-forms-field_types-numeric.ads  20031025153918 b9c1216e
+D terminal_interface-curses-forms-field_types-numeric.adb  20031025153918 fd2ee044
+D unchconv.ads		20060127234222 34860a55
+X 11 interfac.ads
+38K9*Interfaces 173e15 36|41r6 46r13 51r26
+X 12 i-c.ads
+18K20*C 230e17 36|41w17 46r24 51r37
+35I9*int<integer> 36|46r26
+65F9*double<long_float> 36|51r39
+X 30 terminal_interface.ads
+42K9*Terminal_Interface 47e23 35|41r9 42r25 55r5 36|42r6 42r41 44r14 74r5
+X 31 terminal_interface-curses.ads
+49K28*Curses 30|42k9 31|1933e30 35|41r28 42r44 55r24 36|42r25 42r60 44r33
+. 74r24
+X 32 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 36|42w32 42r67
+55I12*C_Int{12|35I9}
+78I12*Eti_Error{55I12} 36|63r13
+80i4*E_Ok{78I12} 36|68r17
+96U14*Eti_Exception 36|69r10
+X 33 terminal_interface-curses-forms.ads
+49K35*Forms 31|49k28 33|780e36 35|41r35 42r51 55r31 36|44r40 74r31
+56M9*Field 35|51r39 36|48r39 56r37
+X 34 terminal_interface-curses-forms-field_types.ads
+43K41*Field_Types 33|49k35 34|239e48 35|41r41 42r57 55r37 36|44r46 74r37
+46I12*C_Int{12|35I9} 36|58r37 60r52 65r36
+52H9*Field_Type 52e50 35|44r30
+132P9 C_Field_Type(119R9) 36|53r30 57r37
+151U14 Wrap_Builtin 36|71r7
+X 35 terminal_interface-curses-forms-field_types-numeric.ads
+41K53*Numeric 34|43k41 35|42r69 55l49 55e56 36|44b58 74l49 74t56
+44R9*Numeric_Field<34|52R9> 49e17 51P14 52r39 36|49r39
+46i10*Precision{natural} 36|65r47
+47f10*Lower_Limit{float} 36|66r48
+48f10*Upper_Limit{float} 36|67r48
+51U14*Set_Field_Type<34|66p14> 51>30 52>30 36|48b14 72l8 72t22
+51m30 Fld{33|56M9} 36|48b30 56r46 71r21
+52r30 Typ{44R9} 36|49b30 65r43 66r44 67r44 71r26
+X 36 terminal_interface-curses-forms-field_types-numeric.adb
+51F12 Double<12|65F9> 59r37 60r37 66r36 67r36
+53p7*C_Numeric_Field_Type{34|132P9} 54m25 57r53
+56V16*Set_Fld_Type{34|46I12} 56>30 57>30 58>30 59>30 60>30 61b<c,set_field_type>25
+. 65r14
+56m30 F{33|56M9}
+57p30 Cft{34|132P9}
+58i30 Arg1{34|46I12} 65r28
+59f30 Arg2{51F12} 66r28
+60f30 Arg3{51F12} 67r28
+63i7 Res{32|78I12} 65m7 68r10 69r25
+

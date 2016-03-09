@@ -1,0 +1,240 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P SS ZX
+R nnvvnnnnvnnnnnvnvnnnnvnnvnvnnnnnnnnnnvnnnnnnnnvvnnnnnvnvnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.forms.field_types%b  terminal_interface-curses-forms-field_types.adb  1968c511 NE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+W terminal_interface.curses.forms%s  terminal_interface-curses-forms.adb  terminal_interface-curses-forms.ali
+
+U terminal_interface.curses.forms.field_types%s  terminal_interface-curses-forms-field_types.ads  65e10c16 EE PR PK
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W terminal_interface.curses.forms%s  terminal_interface-curses-forms.adb  terminal_interface-curses-forms.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-charac.ads		20060127234223 506ce725
+D a-chlat1.ads		20060127234222 3078abae
+D a-except.ads		20060127234220 64bf35a8
+D a-finali.ads		20060127234222 2f48e141
+D a-filico.ads		20060127234222 9299732a
+D a-stream.ads		20060127234220 246b88a6
+D a-tags.ads		20060127234221 a574b7d1
+D a-tags.adb		20060127234221 eb2a3d20
+D a-unccon.ads		20060127234221 51e09df2
+D a-uncdea.ads		20060127234221 dc667e6d
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-finimp.ads		20060127234223 33c39bf7
+D s-finroo.ads		20060127234221 78d634f7
+D s-htable.ads		20060127234222 9598cfa4
+D s-parame.ads		20060127234221 6bd7b874
+D s-secsta.ads		20060127234221 db466d0c
+D s-soflin.ads		20060127234220 bb3ef1e4
+D s-stache.ads		20060127234222 07e06d0a
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-stratt.ads		20060127234222 9823065b
+D s-traent.ads		20060127234220 9950c76b
+D s-unstyp.ads		20060127234221 b399198a
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-forms.ads  20081007231233 bbae986b
+D terminal_interface-curses-forms-field_types.ads  20081007231233 7e4e17b2
+D terminal_interface-curses-forms-field_types.adb  20060625142440 9237b952
+D unchconv.ads		20060127234222 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 35|44r6 45r6 57r39 109r33 123r34 125r33
+X 10 a-unccon.ads
+20v14*Unchecked_Conversion 35|45w10 57r43 109r37
+X 11 a-uncdea.ads
+20u15*Unchecked_Deallocation 35|44w10 123r38 125r37
+X 12 interfac.ads
+38K9*Interfaces 173e15 34|41r6 45r13 46r21 121r32 122r32 35|42r6 53r13
+X 13 i-c.ads
+18K20*C 230e17 34|41w17 45r24 46r32 121r43 122r43 35|42w17 53r24
+35I9*int<integer> 34|45r26 46r34 35|53r26
+36I9*short<short_integer> 34|121r45
+37I9*long<integer> 34|122r45
+X 15 system.ads
+39K9*System 153e11 34|93r23 93r46 97r22 97r45 101r23 105r35 109r34 113r35
+. 123r32 162r30 162r53 167r29 167r52 172r30 178r39 186r38 194r32 202r32 213r13
+. 35|54r13 58r7 64r40 97r30 97r53 108r28 109r59 115r29 115r52 121r33 132r31
+. 149r28 163r38 166r24 182r39 196r38 210r32 224r32
+66M9*Address 34|93r30 93r53 97r29 97r52 101r30 105r42 109r41 113r42 123r39
+. 162r37 162r60 167r36 167r59 172r37 178r46 186r45 194r39 202r39 213r20 35|54r20
+. 58r14 64r47 97r37 97r60 108r35 109r66 115r36 115r59 121r40 149r35 182r46
+. 196r45 210r39 224r39
+67m4*Null_Address{66M9} 35|132r38 163r45 166r31
+79V13*"="{boolean} 35|132r28 166r21
+X 30 terminal_interface.ads
+42K9*Terminal_Interface 47e23 34|43r9 44r25 239r5 35|43r6 43r41 51r14 298r5
+X 31 terminal_interface-curses.ads
+49K28*Curses 30|42k9 31|1933e30 34|43r28 44r44 239r24 35|43r25 43r60 51r33
+. 298r24
+X 32 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 35|43w32 43r67
+55I12*C_Int{13|35I9}
+78I12*Eti_Error{55I12} 35|152r13 241r13 268r13
+80i4*E_Ok{78I12} 35|175r20 254r23 281r23 288r23
+96U14*Eti_Exception 35|176r13 255r16 282r16 289r16
+X 33 terminal_interface-curses-forms.ads
+49K35*Forms 31|49k28 33|780e36 34|43r35 44r51 239r31 35|51r40 298r31
+56M9*Field 34|66r44 79r32 105r22 113r22 151r34 177r39 193r32 201r32 35|61r32
+. 64r26 73r32 145r34 153r37 181r39 209r32 223r32
+286X4*Form_Exception 35|87r22 92r19 161r16 248r19 275r19
+X 34 terminal_interface-curses-forms-field_types.ads
+43K41*Field_Types 33|49k35 34|44r57 239l37 239e48 35|51b46 298l37 298t48
+46I12*C_Int{13|35I9} 105r58 109r21 109r57 113r58 178r62 185r37 186r61 194r55
+. 202r55 231r13 236r13 35|155r61 182r62 195r38 196r61 210r55 224r55
+52H9*Field_Type 52e50 63r41 66p14 67r44 152r34 35|124r10 146r34 164r42
+63P9*Field_Type_Access(52R9) 79r46 212r13 35|73r46 124r28
+66x14*Set_Field_Type 66>30 67>30
+66m30 Fld{33|56M9}
+67r30 Fld_Type{52R9}
+79V13*Get_Type{63P9} 79>23 35|73b13 95l8 95t16
+79m23 Fld{33|56M9} 35|73b23 75r59 85r49
+92P9 Makearg_Function(15|66M9) 94r26 124r32 228r38
+93m16 Args{15|66M9}
+96P9 Copyarg_Function(15|66M9) 98r26 125r32 229r38
+97m16 Usr{15|66M9}
+100P9 Freearg_Function 102r26 126r32 230r38
+101m17 Usr{15|66M9}
+104P9 Field_Check_Function(13|35I9) 106r26 127r32 222r37
+105m16 Fld{33|56M9}
+105m29 Usr{15|66M9}
+108P9 Char_Check_Function(13|35I9) 110r26 128r32 223r37
+109i16 Ch{46I12}
+109m28 Usr{15|66M9}
+112P9 Choice_Function(13|35I9) 114r26 129r32 235r48
+113m16 Fld{33|56M9}
+113m29 Usr{15|66M9}
+119R9 Low_Level_Field_Type 130e17 131r26 132r36
+121i10*Status{13|36I9}
+122i10*Ref_Count{13|37I9}
+123m10*Left{15|66M9}
+123m16*Right{15|66M9}
+124p10*Makearg{92P9}
+125p10*Copyarg{96P9} 35|167r26 168r37
+126p10*Freearg{100P9} 35|134r26 135r26
+127p10*Fcheck{104P9} 35|188r18 189r25
+128p10*Ccheck{108P9} 35|202r18 203r25
+129p10*Next{112P9} 35|216r18 217r25
+129p16*Prev{112P9} 35|230r18 231r25
+132P9 C_Field_Type(119R9) 134r33 141r23 142r23 143r23 144r23 148r37 149r37
+. 153r34 214r13 224r13 227r38 234r41 35|61r46 75r28 129r20 147r34 150r28
+. 154r37 239r37 242r13 266r36 269r13
+134p4 Null_Field_Type{132P9} 35|78r22 159r35 186r54 200r54 214r54 228r54
+. 244r29 247r17 260r42 271r28 274r17 294r41
+141p4 M_Generic_Type{132P9} 35|82r24
+142p4 M_Generic_Choice{132P9} 35|84r24
+143p4 M_Builtin_Router{132P9} 35|81r25 244r10 258m10 260r22 261r14
+144p4 M_Choice_Router{132P9} 35|83r24 271r10 292m10 294r22 295r14
+148V13 C_Builtin_Router{132P9} 153r50 35|147r50 160r17 239b13 262l8 262t24
+149V13 C_Choice_Router{132P9} 35|160r50 266b13 296l8 296t23
+151U14 Wrap_Builtin 151>28 152>28 153>28 35|145b14 179l8 179t20
+151m28 Fld{33|56M9} 35|145b28 149r55 150r59 153r46 165r53
+152c28 Typ<52R9> 35|146b28 164r60
+153p28 Cft{132P9} 35|147b28 154r53 160r10 160r43
+162V13 Make_Arg{15|66M9} 162>23 163r26 228r58 35|97b13 113l8 113t16 251r39
+. 278r39
+162m23 Args{15|66M9} 35|97b23 112r36
+167V13 Copy_Arg{15|66M9} 167>23 168r26 229r58 35|115b13 119l8 119t16 252r39
+. 279r39
+167m23 Usr{15|66M9} 35|115b23 118r14
+172U14 Free_Arg 172>24 173r26 230r58 35|121b14 143l8 143t16 253r39 280r39
+172m24 Usr{15|66M9} 35|121b24 128r59
+177V13 Field_Check_Router{46I12} 177>33 178>33 179r26 35|181b13 193l8 193t26
+. 245r30 272r30
+177m33 Fld{33|56M9} 35|181b33 189r33
+178m33 Usr{15|66M9} 35|182b33 184r62
+185V13 Char_Check_Router{46I12} 185>32 186>32 187r26 35|195b13 207l8 207t25
+. 246r30 273r30
+185i32 Ch{46I12} 35|195b32 203r33
+186m32 Usr{15|66M9} 35|196b32 198r62
+193V13 Next_Router{46I12} 193>26 194>26 195r26 35|209b13 221l8 221t19 286r42
+193m26 Fld{33|56M9} 35|209b26 217r31
+194m26 Usr{15|66M9} 35|210b26 212r62
+201V13 Prev_Router{46I12} 201>26 202>26 203r26 35|223b13 235l8 235t19 287r42
+201m26 Fld{33|56M9} 35|223b26 231r31
+202m26 Usr{15|66M9} 35|224b26 226r62
+211R9 Argument 215e14 216r39 35|126r10 163r21
+212p7*Typ{63P9} 35|89r27 138r24 139r35 164r31 187r35 201r35 215r35 229r35
+213m7*Usr{15|66M9} 35|132r24 135r46 163r31 168r20 170r20 189r42 203r41 217r40
+. 231r40
+214p7*Cft{132P9} 35|133r37 165r31 186r47 188r14 189r21 200r47 202r14 203r21
+. 214r47 216r14 217r21 228r47 230r14 231r21
+216P9 Argument_Access(211R9) 35|58r23 76r13 126r20 128r20 151r13 155r37 184r23
+. 198r23 212r23 226r23
+222V13 New_Fieldtype{132P9} 222>28 223>28 225b<c,new_fieldtype>22 35|245r15
+. 272r15
+222p28 Fcheck{104P9}
+223p28 Ccheck{108P9}
+227V13 Set_Fieldtype_Arg{46I12} 227>32 228>32 229>32 230>32 232b<c,set_fieldtype_arg>22
+. 35|250r20 277r20
+227p32 Cft{132P9}
+228p32 Mak{92P9}
+229p32 Cop{96P9}
+230p32 Fre{100P9}
+234V13 Set_Fieldtype_Choice{46I12} 234>35 235>35 235>41 237b<c,set_fieldtype_choice>22
+. 35|285r20
+234p35 Cft{132P9}
+235p35 Next{112P9}
+235p41 Prev{112P9}
+X 35 terminal_interface-curses-forms-field_types.adb
+57V13 To_Argument_Access[10|20]{34|216P9} 85r20 128r39 184r42 198r42 212r42
+. 226r42
+61V13 Get_Fieldtype{34|132P9} 61>28 62b<c,field_type>22 75r44 150r44 165r38
+61m28 F{33|56M9}
+64V13 Get_Arg{15|66M9} 64>22 65b<c,field_arg>22 85r40 149r46
+64m22 F{33|56M9}
+75p7 Low_Level{34|132P9} 78r10 81r13 82r12 83r12 84r12
+76p7 Arg{34|216P9} 85m13 86r16 89r23
+108P12 V(15|66M9) 110r59
+109V16 To_Access[10|20]{108P12} 112r14 112r25
+123U17 Free_Type[11|20] 139r13
+125U17 Freeargs[11|20] 141r10
+128p7 To_Be_Free{34|216P9} 131r10 132r13 133r26 135r35 138r13 139r24 141m20
+129p7 Low_Level{34|132P9} 133m13 134r16 135r16 135r26
+149m7 Usr_Arg{15|66M9} 166r13 168r46 170r27
+150p7 Low_Level{34|132P9} 159r22 167r16 168r27 168r37
+151p7 Arg{34|216P9} 163m10 168r16 170r16 174r39
+152i7 Res{32|78I12} 174m10 175r13 176r28
+153V16*Set_Fld_Type{34|46I12} 153>30 154>30 155>30 156b<c,set_field_type>25
+. 174r17
+153m30 F{33|56M9}
+154p30 Cf{34|132P9}
+155p30 Arg1{34|216P9} 174r31
+184p7 Arg{34|216P9} 186r22 186r43 187r31 188r10 189r17 189r38
+198p7 Arg{34|216P9} 200r22 200r43 201r31 202r10 203r17 203r37
+212p7 Arg{34|216P9} 214r22 214r43 215r31 216r10 217r17 217r36
+226p7 Arg{34|216P9} 228r22 228r43 229r31 230r10 231r17 231r36
+241i7 Res{32|78I12} 250m13 254r16 255r31
+242p7 T{34|132P9} 245m10 247r13 250r39 258r30
+268i7 Res{32|78I12} 277m13 281r16 282r31 285m13 288r16 289r31
+269p7 T{34|132P9} 272m10 274r13 277r39 285r42 292r29
+

@@ -1,0 +1,14 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U terminal_interface%s	terminal_interface.ads	c7b21259 NE PU PK
+
+D system.ads		20060127234221 07429f6d
+D terminal_interface.ads  20060625143022 c7b21259
+X 2 terminal_interface.ads
+42K9*Terminal_Interface 43r17 47l5 47e23
+

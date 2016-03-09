@@ -1,0 +1,210 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P ZX
+R nnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.mouse%b  terminal_interface-curses-mouse.adb  df1c4324 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.exp_uns%s	s-expuns.adb		s-expuns.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+
+U terminal_interface.curses.mouse%s  terminal_interface-curses-mouse.ads  f9c85b5d BN NE PR PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-except.ads		20060127234220 64bf35a8
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-expuns.ads		20060127234221 f2f8b43d
+D s-parame.ads		20060127234221 6bd7b874
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-traent.ads		20060127234220 9950c76b
+D s-unstyp.ads		20060127234221 b399198a
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-mouse.ads  20081007231233 cbd32eeb
+D terminal_interface-curses-mouse.adb  20040821213700 6b1a7acc
+D unchconv.ads		20060127234222 34860a55
+X 3 interfac.ads
+38K9*Interfaces 173e15 18|166r27 170r43 171r43 172r43 173r43 19|45r6 45r24
+. 46r5 51r13
+X 4 i-c.ads
+18K20*C 230e17 18|166r38 170r54 171r54 172r54 173r54 19|45w17 45r35 51r24
+35I9*int<integer> 18|172r56 173r56 19|51r26
+36I9*short<short_integer> 18|170r56 171r56
+45M9*unsigned_long 18|166r40
+X 6 system.ads
+39K9*System 153e11 18|46w6 189r36 189r56 19|42w6 50r13
+89E9*Bit_Order 89e57 18|189r43 19|50r20
+89n41*Low_Order_First{89E9} 18|189r63
+X 15 terminal_interface.ads
+42K9*Terminal_Interface 47e23 18|48r9 49r25 229r5 19|44r6 44r41 48r14 220r5
+X 16 terminal_interface-curses.ads
+49K28*Curses 15|42k9 16|1933e30 18|48r28 49r44 229r24 19|44r25 44r60 48r33
+. 220r24
+57M9*Window 18|154r42 19|197r42 200r32
+60I9*Line_Position<integer> 18|138r38 19|175r38 183r12
+61I9*Column_Position<integer> 18|139r38 19|176r38 182r12
+68I9*Key_Code<integer>
+73I12*Real_Key_Code{68I9}
+78I12*Special_Key_Code{73I12}
+204i4*Key_Mouse{78I12} 19|58r19
+383X4*Curses_Exception 19|75r16 88r16 193r16
+475V13*Standard_Window{57M9} 18|154r52 19|197r52
+761V13*Has_Key{boolean} 19|58r10
+864U14*Beep 19|121r10 130r10
+1930M9 Curses_Bool 19|201r33
+1931m4 Curses_Bool_False{1930M9} 19|205r11
+X 17 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 19|44w32 44r67
+55I12*C_Int{4|35I9} 19|55r35 69r52 189r53 200r44 200r55 204r25 204r42 214r38
+. 214r52 217r38
+72i4*Curses_Err{55I12} 19|74r36 192r31
+X 18 terminal_interface-curses-mouse.ads
+48K35*Mouse 16|49k28 18|49r51 229l31 229e36 19|48b40 220l31 220t36
+64M9*Event_Mask 65r26 66r26 104r23 113r23 123r33 124r33 128r35 166c9 174r20
+. 192r41 193r41 194r41 195r41 196r41 197r41 198r41 199r41 200r41 201r41 202r41
+. 203r41 204r41 205r41 206r41 207r41 208r41 209r41 210r41 211r41 212r41 213r41
+. 214r41 215r41 216r41 217r41 218r41 219r41 220r41 221r41 222r41 223r41 224r41
+. 226r26 227r26 19|82r57 100r58 110r33 111r33 113r27 114r34 114r53 116r13
+. 117r21 126r35 134r43 138r43 141r11 180r24
+65m4*No_Events{64M9} 128r49 226c4 19|120r14 126r49 129r18
+66m4*All_Events{64M9} 123r47 227c4 19|110r47
+68E9*Mouse_Button 74e30 76r29 77r29 102r19 111r19 140r38 19|80r53 84r39 98r54
+. 135r43 139r43 154r25 177r38
+68n26*Left{68E9} 76r48 19|145r20
+69n26*Middle{68E9} 19|147r20
+70n26*Right{68E9} 19|149r20
+71n26*Button4{68E9} 76r56 19|151r20
+72n26*Control{68E9} 77r48 19|165r23
+73n26*Shift{68E9} 19|167r23
+74n26*Alt{68E9} 77r59 19|143r17 169r23
+76E12*Real_Buttons{68E9} 19|90r23 153r20
+77E12*Modifier_Keys{68E9} 19|87r20
+79E9*Button_State 83e41 85r33 103r19 141r38 19|81r53 85r39 136r43 140r43
+. 155r19 178r38
+79n26*Released{79E9}
+80n26*Pressed{79E9} 19|87r52 163r19
+81n26*Clicked{79E9} 88r44
+82n26*Double_Clicked{79E9}
+83n26*Triple_Clicked{79E9} 88r55
+85A9*Button_States(boolean) 86r17 88r26 90r26 112r19 19|99r54 103r16
+88a4*All_Clicks{85A9}
+90a4*All_States{85A9}
+92R9*Mouse_Event 133r30 137r38 149r38 155r42 168c9 175e17 176r26 178r8 19|65r30
+. 67r39 72r23 174r38 187r38 189r33 198r42
+98V13*Has_Mouse{boolean} 19|53b13 63l8 63t17
+101U14*Register_Reportable_Event 102>7 103>7 104=7 108r19 19|80b14 96l8 96t33
+. 105r13
+102e7 Button{68E9} 19|80b41 84r57 87r10 90r13
+103e7 State{79E9} 19|81b41 85r57 87r43
+104m7 Mask{64M9} 19|82b41 91m13 91r21 93m13 93r21
+110U14*Register_Reportable_Events 111>7 112>7 113=7 19|98b14 108l8 108t34
+111e7 Button{68E9} 19|98b42 105r40
+112a7 State{85A9} 19|99b42 104r13
+113m7 Mask{64M9} 19|100b42 105m51
+123V13*Start_Mouse{64M9} 123>26 126r19 19|110b13 124l8 124t19
+123m26 Mask{64M9} 19|110b26 119r19
+128U14*End_Mouse 128>25 130r19 19|126b14 132l8 132t17
+128m25 Mask{64M9} 19|126b25 129r10
+133V13*Get_Mouse{92R9} 135r19 19|65b13 78l8 78t17
+137U14*Get_Event 137>25 138<25 139<25 140<25 141<25 146r19 19|174b14 185l8
+. 185t17
+137r25 Event{92R9} 19|174b25 180r38 182r29 183r29
+138i25 Y{16|60I9} 19|175b25 183m7
+139i25 X{16|61I9} 19|176b25 182m7
+140e25 Button{68E9} 19|177b25 184m29
+141e25 State{79E9} 19|178b25 184m37
+149U14*Unget_Mouse 149>27 151r19 19|187b14 195l8 195t19
+149r27 Event{92R9} 19|187b27 192r22
+154V13*Enclosed_In_Window{boolean} 154>33 155>33 158r19 19|197b13 210l8 210t26
+154m33 Win{16|57M9} 19|197b33 204r20
+155r33 Event{92R9} 19|198b33 204r32 204r49
+161V13*Mouse_Interval{natural} 161>29 163r19 19|212b13 218l8 218t22
+161i29 Msec{natural} 19|212b29 217r45
+170i10*Id{integer}
+172i10*X{integer} 19|182r35 204r55
+172i13*Y{integer} 19|183r35 204r38
+172i16*Z{integer}
+174m10*Bstate{64M9} 19|180r44
+189e4 Generation_Bit_Order{6|89E9}
+192m4 BUTTON1_RELEASED{64M9}
+193m4 BUTTON1_PRESSED{64M9}
+194m4 BUTTON1_CLICKED{64M9}
+195m4 BUTTON1_DOUBLE_CLICKED{64M9}
+196m4 BUTTON1_TRIPLE_CLICKED{64M9}
+197m4 BUTTON1_RESERVED_EVENT{64M9}
+198m4 BUTTON2_RELEASED{64M9}
+199m4 BUTTON2_PRESSED{64M9}
+200m4 BUTTON2_CLICKED{64M9}
+201m4 BUTTON2_DOUBLE_CLICKED{64M9}
+202m4 BUTTON2_TRIPLE_CLICKED{64M9}
+203m4 BUTTON2_RESERVED_EVENT{64M9}
+204m4 BUTTON3_RELEASED{64M9}
+205m4 BUTTON3_PRESSED{64M9}
+206m4 BUTTON3_CLICKED{64M9}
+207m4 BUTTON3_DOUBLE_CLICKED{64M9}
+208m4 BUTTON3_TRIPLE_CLICKED{64M9}
+209m4 BUTTON3_RESERVED_EVENT{64M9}
+210m4 BUTTON4_RELEASED{64M9}
+211m4 BUTTON4_PRESSED{64M9}
+212m4 BUTTON4_CLICKED{64M9}
+213m4 BUTTON4_DOUBLE_CLICKED{64M9}
+214m4 BUTTON4_TRIPLE_CLICKED{64M9}
+215m4 BUTTON4_RESERVED_EVENT{64M9}
+216m4 BUTTON_CTRL{64M9} 19|93r30 164r23
+217m4 BUTTON_SHIFT{64M9} 19|166r26
+218m4 BUTTON_ALT{64M9} 19|168r26
+219m4 REPORT_MOUSE_POSITION{64M9}
+220m4 ALL_MOUSE_EVENTS{64M9} 227r40
+221m4 BUTTON1_EVENTS{64M9} 19|144r20
+222m4 BUTTON2_EVENTS{64M9} 19|146r23
+223m4 BUTTON3_EVENTS{64M9} 19|148r23
+224m4 BUTTON4_EVENTS{64M9} 19|150r23
+X 19 terminal_interface-curses-mouse.adb
+55V16*Mouse_Avail{17|55I12} 56b<c,_nc_has_mouse>25 58r38
+67P12 Event_Access(18|92R9) 69r31
+69V16*Getmouse{17|55I12} 69>26 70b<c,getmouse>25 74r10
+69p26 Ev{67P12}
+72r7 Event{18|92R9} 74m20 77r14
+84i7 Button_Nr{natural} 91r41 93r46
+85i7 State_Nr{natural} 91r56
+103e11 S{18|79E9} 104r20 105r48
+113V16*MMask{18|64M9} 113>23 114^23 115b<c,mousemask>25 119r12
+113m23 M{18|64M9}
+114p23 O(18|64M9)
+116m7 R{18|64M9} 119m7 120r10
+117m7 Old{18|64M9} 119m25 123r14
+134U14 Dispatch_Event 134>30 135<30 136<30 138b14 172l8 172t22 184r7
+134m30 Mask{18|64M9} 138b30 144r11 146r14 148r14 150r14 156r17 164r14 166r17
+. 168r17
+135e30 Button{18|68E9} 139b30 143m7 145m10 147m10 149m10 151m10 153r10 154r43
+. 165m13 167m13 169m13
+136e30 State{18|79E9} 140b30 157m16 163m10
+141m7 L{18|64M9} 154m10 156r26 160m13 160r22
+155e14 I{18|79E9} 157r25
+180m7 Mask{18|64M9} 184r23
+189V16*Ungetmouse{17|55I12} 189>28 190b<c,ungetmouse>25 192r10
+189r28 Ev{18|92R9}
+200V16*Wenclose{16|1930M9} 200>26 200>40 200>51 202b<c,wenclose>25 204r10
+200m26 Win{16|57M9}
+200i40 Y{17|55I12}
+200i51 X{17|55I12}
+214V16*Mouseinterval{17|55I12} 214>31 215b<c,mouseinterval>25 217r23
+214i31 Msec{17|55I12}
+

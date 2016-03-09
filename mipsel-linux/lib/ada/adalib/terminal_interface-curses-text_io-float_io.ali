@@ -1,0 +1,102 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P SS ZX
+R nnnnnnnnnnnnnnvnvnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.text_io.float_io%b  terminal_interface-curses-text_io-float_io.adb  2f424f77 NE PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.adb  terminal_interface-curses-text_io.ali
+W terminal_interface.curses.text_io.aux%s  terminal_interface-curses-text_io-aux.adb  terminal_interface-curses-text_io-aux.ali
+
+U terminal_interface.curses.text_io.float_io%s  terminal_interface-curses-text_io-float_io.ads  8e6bfc00 BN EE NE PK GE
+W terminal_interface.curses.text_io%s  terminal_interface-curses-text_io.adb  terminal_interface-curses-text_io.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-except.ads		20060127234220 64bf35a8
+D a-finali.ads		20060127234222 2f48e141
+D a-filico.ads		20060127234222 9299732a
+D a-ioexce.ads		20060127234223 be0900a0
+D a-stream.ads		20060127234220 246b88a6
+D a-tags.ads		20060127234221 a574b7d1
+D a-tags.adb		20060127234221 eb2a3d20
+D a-textio.ads		20060127234222 bc58c967
+D a-tiflau.ads		20060127234221 b5940daf
+D a-tiflio.ads		20060127234221 9e591677
+D a-tiflio.adb		20060127234221 6afa69de
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrea.ads		20060127234221 85085d90
+D system.ads		20060127234221 07429f6d
+D s-crtl.ads		20060127234221 44c0e2c2
+D s-exctab.ads		20060127234222 e14b1567
+D s-ficobl.ads		20060127234222 ed792749
+D s-finimp.ads		20060127234223 33c39bf7
+D s-finroo.ads		20060127234221 78d634f7
+D s-htable.ads		20060127234222 9598cfa4
+D s-parame.ads		20060127234221 6bd7b874
+D s-secsta.ads		20060127234221 db466d0c
+D s-soflin.ads		20060127234220 bb3ef1e4
+D s-stache.ads		20060127234222 07e06d0a
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-stratt.ads		20060127234222 9823065b
+D s-traent.ads		20060127234220 9950c76b
+D s-unstyp.ads		20060127234221 b399198a
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-text_io.ads  20031025153918 974bea84
+D terminal_interface-curses-text_io-aux.ads  20060625142440 36df437c
+D terminal_interface-curses-text_io-float_io.ads  20031025153918 19201684
+D terminal_interface-curses-text_io-float_io.adb  20031025153918 bce5d3e8
+D unchconv.ads		20060127234222 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 38|41r6 47r23
+X 9 a-textio.ads
+49K13*Text_IO 451e16 38|41w10 47r27
+74I12*Field{integer}
+X 11 a-tiflio.ads
+47k21*Float_IO 90e25 38|47r35
+80U14 Put 38|62r11[47]
+X 33 terminal_interface.ads
+42K9*Terminal_Interface 47e23 37|44r9 66r5 38|42r6 44r14 46r24 76r5
+X 34 terminal_interface-curses.ads
+49K28*Curses 33|42k9 34|1933e30 37|44r28 66r24 38|42r25 44r33 46r43 76r24
+57M9*Window 37|51r17 38|50r17
+X 35 terminal_interface-curses-text_io.ads
+44K35*Text_IO 34|49k28 35|136e38 37|44r35 66r31 38|42r32 44r40 46r50 76r31
+50I12*Field{9|74I12} 37|46r19 47r19 48r19 53r17 54r17 55r17 59r17 60r17 61r17
+. 38|52r17 53r17 54r17 56r26 57r13 68r17 69r17 70r17
+62V13*Get_Window{34|57M9} 38|73r12
+X 36 terminal_interface-curses-text_io-aux.ads
+42K51*Aux 55e42 38|42w40 46r58
+48U14*Put_Buf 38|63r11
+X 37 terminal_interface-curses-text_io-float_io.ads
+42F9 Num 47r28 52r17 58r18 38|47r45 51r17 67r17
+44k43*Float_IO 35|44k35 37|42z9 66l39 66e47 38|44b48 76l39 76t47
+46i4*Default_Fore{35|50I12} 53r26 59r26 38|52r26 68r26
+47i4*Default_Aft{35|50I12} 54r26 60r26 38|53r26 69r26
+48i4*Default_Exp{35|50I12} 55r26 61r26 38|54r26 70r26
+50U14*Put 51>7 52>7 53>7 54>7 55>7 38|49b14 64l8 64t11 73r7
+51m7 Win{34|57M9} 38|50b7 63r20
+52*7 Item{42F9} 38|51b7 62r21
+53i7 Fore{35|50I12} 38|52b7 57r22
+54i7 Aft{35|50I12} 38|53b7 57r33 62r27
+55i7 Exp{35|50I12} 38|54b7 59r10 60r27 62r32
+57U14*Put 58>7 59>7 60>7 61>7 38|66b14 74l8 74t11
+58*7 Item{42F9} 38|67b7 73r24
+59i7 Fore{35|50I12} 38|68b7 73r30
+60i7 Aft{35|50I12} 38|69b7 73r36
+61i7 Exp{35|50I12} 38|70b7 73r41
+X 38 terminal_interface-curses-text_io-float_io.adb
+46K12 Aux=46:58 63r7
+47K12 FIO[11|47] 62r7
+56a7 Buf{string} 62m16 63r25
+57i7 Len{35|50I12} 60m10 60r17 63r30
+

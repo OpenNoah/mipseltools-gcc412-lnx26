@@ -1,0 +1,127 @@
+V "GNAT Lib v4.1"
+A -O3
+A -gnatp
+A -gnatn
+P SS ZX
+R nnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U terminal_interface.curses.termcap%b  terminal_interface-curses-termcap.adb  5e7d1b0e NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W terminal_interface%s	terminal_interface.ads	terminal_interface.ali
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+W terminal_interface.curses.aux%s  terminal_interface-curses-aux.adb  terminal_interface-curses-aux.ali
+
+U terminal_interface.curses.termcap%s  terminal_interface-curses-termcap.ads  37343023 NE PR PK
+W terminal_interface.curses%s  terminal_interface-curses.adb  terminal_interface-curses.ali
+
+D ada.ads		20060127234220 9c7dd3ea
+D a-except.ads		20060127234220 64bf35a8
+D interfac.ads		20060127234221 a69cad5c
+D i-c.ads		20060127234222 a00183cf
+D i-cstrin.ads		20060127234222 c84e2ada
+D system.ads		20060127234221 07429f6d
+D s-exctab.ads		20060127234222 e14b1567
+D s-parame.ads		20060127234221 6bd7b874
+D s-secsta.ads		20060127234221 db466d0c
+D s-stalib.ads		20060127234222 99eda53f
+D s-stoele.ads		20060127234222 f7e9ab3e
+D s-stoele.adb		20060127234222 a397f9ca
+D s-traent.ads		20060127234220 9950c76b
+D terminal_interface.ads  20060625143022 c7b21259
+D terminal_interface-curses.ads  20081007231232 3559eadb
+D terminal_interface-curses-aux.ads  20081007231232 d8960ba1
+D terminal_interface-curses-termcap.ads  20031025153918 026ddaf8
+D terminal_interface-curses-termcap.adb  20060625143022 ecc96342
+D unchconv.ads		20060127234222 34860a55
+X 3 interfac.ads
+38K9*Interfaces 173e15 18|44r6 44r24 45r6 45r32
+X 4 i-c.ads
+18K20*C 230e17 18|44w17 44r35 45r17 45r43
+35I9*int<integer>
+60M9*size_t 18|55r17 74r16 92r16 112r16 133r16 156r16
+72E9*char<character>
+74e4*nul{72E9} 18|56r55 115r48 136r44
+79A9*char_array(72E9) 18|51r32 51r50 54r17 56r26 60r26 71r31 73r16 89r30
+. 91r16 108r31 109r31 111r16 114r21 118r29 129r31 130r31 132r16 135r21 139r29
+. 151r29 155r16
+92U14*To_C 18|59r7 76r7 94r7 117r7 138r7 158r7
+X 5 i-cstrin.ads
+38K22*Strings 107e25 18|45w19 45r45
+52P9*chars_ptr(character) 18|109r50 113r16 130r50 134r16 153r43
+56p4*Null_Ptr{52P9} 18|119r17 140r17
+X 14 terminal_interface.ads
+42K9*Terminal_Interface 47e23 17|42r9 43r25 80r5 18|43r6 43r41 47r14 163r5
+X 15 terminal_interface-curses.ads
+49K28*Curses 14|42k9 15|1933e30 17|42r28 43r44 80r24 18|43r25 43r60 47r33
+. 163r24
+60I9*Line_Position<integer> 17|55r26 18|150r26
+61I9*Column_Position<integer> 17|54r26 18|149r26
+383X4*Curses_Exception 18|62r16
+X 16 terminal_interface-curses-aux.ads
+50K35*Aux 124e34 18|43w32 43r67
+55I12*C_Int{4|35I9} 18|52r32 57r17 71r50 89r49 152r29 153r29 160r43 160r56
+121V13*Fill_String{string} 18|122r19 159r30
+X 17 terminal_interface-curses-termcap.ads
+42K35*Termcap 15|49k28 17|43r51 80l31 80e38 18|47b40 163l31 163t38
+50A9*Termcap_String<string> 55r48 18|150r48 159r14
+53V13*TGoto{50A9} 53>20 54>20 55>20 18|148b13 161l8 161t13
+53s20 Cap{string} 18|148b20 155r33 158r13
+54i20 Col{15|61I9} 18|149b20 160r50
+55i20 Row{15|60I9} 18|150b20 160r63
+59V13*Get_Entry{boolean} 59>24 18|49b13 66l8 66t17
+59s24 Name{string} 18|49b24 54r34 59r13
+63V13*Get_Flag{boolean} 63>23 18|69b13 82l8 82t16
+63s23 Name{string} 18|69b23 73r33 76r13
+67U14*Get_Number 67>26 68<26 69<26 18|85b14 101l8 101t18
+67s26 Name{string} 18|85b26 91r33 94r13
+68i26 Value{integer} 18|86b26 95m7 96r10
+69b26 Result{boolean} 18|87b26 97m10 99m10
+73U14*Get_String 73>26 74<26 75<26 18|104b14 125l8 125t18
+73s26 Name{string} 18|104b26 111r33 117r13
+74s26 Value{string} 18|105b26 122m10
+75b26 Result{boolean} 18|106b26 120m10 123m10
+76V13*Get_String{boolean} 76>25 18|127b13 145l8 145t18
+76s25 Name{string} 18|127b25 132r33 138r13
+X 18 terminal_interface-curses-termcap.adb
+51V16*tgetent{16|55I12} 51>25 51>44 53b<c,tgetent>25 60r17
+51a25 name{4|79A9}
+51a44 val{4|79A9}
+54a7 NameTxt{4|79A9} 59m19 60r48
+55m7 Length{4|60M9} 59m28
+56a7 ignored{4|79A9} 60r38
+57i7 result{16|55I12} 60m7 61r10 64r30
+71V16*tgetflag{16|55I12} 71>26 72b<c,tgetflag>25 77r10
+71a26 id{4|79A9}
+73a7 Txt{4|79A9} 76m19 77r20
+74m7 Length{4|60M9} 76m24
+89V16*tgetnum{16|55I12} 89>25 90b<c,tgetnum>25 95r25
+89a25 id{4|79A9}
+91a7 Txt{4|79A9} 94m19 95r34
+92m7 Length{4|60M9} 94m24
+108V16*tgetstr{5|52P9} 108>25 109>25 110b<c,tgetstr>25 118r15
+108a25 id{4|79A9}
+109a25 buf{4|79A9}
+111a7 Txt{4|79A9} 117m19 118r24
+112m7 Length{4|60M9} 117m24
+113p7 Txt2{5|52P9} 118m7 119r10 122r32
+114A12 t<4|79A9> 115r32
+115a7 Return_Buffer{114A12} 118r41
+129V16*tgetstr{5|52P9} 129>25 130>25 131b<c,tgetstr>25 139r15
+129a25 Id{4|79A9}
+130a25 buf{4|79A9}
+132a7 Txt{4|79A9} 138m19 139r24
+133m7 Length{4|60M9} 138m24
+134p7 Txt2{5|52P9} 139m7 140r10
+135A12 t<4|79A9> 136r28
+136a7 Phony_Txt{135A12} 139r41
+151V16*tgoto{5|52P9} 151>23 152>23 153>23 154b<c,tgoto>25 160r31
+151a23 cap{4|79A9}
+152i23 col{16|55I12}
+153i23 row{16|55I12}
+155a7 Txt{4|79A9} 158m18 160r38
+156m7 Length{4|60M9} 158m23
+
